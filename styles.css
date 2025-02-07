@@ -1,0 +1,165 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233d;
+    margin-right: 32px;
+    cursor: pointer;
+
+}
+
+.button-sign-up {
+    background: #6FBF44;
+    border: 1PX solid #4CB53B;
+    border-radius: 6PX;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+img {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154;
+    color: #161a49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5;
+    color: #4b505a;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4CB53B;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+
+
+    a {
+        display: none;
+    }
+
+    header {
+        margin: 17px 15px 0 250px;
+    }
+
+    h1 {
+        display: block;
+        width: 278px;
+        height: auto;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .logo-image {
+        max-width: 90%;
+        position: relative;
+        top: 460px;
+        margin-left: 30px;
+        margin-right: 45px;
+    }
+
+    div {
+        display: block;
+        position: relative;
+        top: -230px;
+        width: 100%;
+        height: auto;
+        margin-left: 55px;
+        margin-right: 55px;
+
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+
+    .link-button {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        position: relative;
+        top: -29;
+        display: block;
+        margin: -29px 90px 0px 90px;
+        width: 0 auto;
+    }
+}
+
+@media screen and (max-width:330px) {
+
+    header {
+        margin: 17px 15px 0 190px;
+    }
+
+    div {
+        display: block;
+        position: relative;
+        top: -200px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+
+    }
+
+    p {
+
+        margin: 29px auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
